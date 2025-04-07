@@ -28,7 +28,8 @@ int main()
         int lp = 0, rp = n-1;
         bool flag = 0;
 
-        while( lp <= rp)
+        while( lp <= rp)          //O(logn)
+            
         {
             int mid = (lp + rp)/2;
 
