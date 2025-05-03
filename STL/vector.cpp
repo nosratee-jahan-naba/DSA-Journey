@@ -35,6 +35,9 @@ int main()
 // cin >> n;
 // vector<int> vis;
 // vis.assign(n, 0);
+/ for(int i = 0; i < n; i++)
+//     vis[v[i]]++;
+    
 // vis.assign(n, -1);
 
 // for (int i = 0;i < n;i++)
