@@ -15,8 +15,8 @@ int main()
   
     cout << s.front() << " " << s.back() << nl;
     cout << s.empty() << nl;
-    cout << s.substr(1, 3) << nl;
-    cout << s.substr(2) << nl;
+    cout << s.substr(0, 3) << nl;   // start from 0 th index,end 3th index
+    cout << s.substr(2) << nl;   // start from 2 th index
 
     s.clear();
  
