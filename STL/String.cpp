@@ -19,7 +19,12 @@ int main()
     cout << s.substr(2) << nl;   // start from 2 th index
 
     s.clear();
- 
+
+    int num = 280;
+    string s = to_string(num) ;  // 280
+
+    string sd = "280";
+    int n= stoi(sd);   // 280
   
 
     return 0;
