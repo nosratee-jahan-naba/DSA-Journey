@@ -1,3 +1,6 @@
+ // time complexity = O(V+E)   (each node + its edges).
+// space complexity = O(V)  for queue 
+
 #include<bits/stdc++.h>
 #define Naba ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 using namespace std;
