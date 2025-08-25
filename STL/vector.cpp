@@ -1,14 +1,15 @@
-
 #include<bits/stdc++.h>
-#define Naba ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
-#define nl '\n'
-using namespace std;
+#define Naba ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0)
+#define nl endl
+#define ll long long
 
 int main()
 {
-    Naba;
-
-//int n;  cin >> n;
+    // int testcase; cin >> testcase; 
+    // while(testcase--){
+        
+    // }
+    //int n;  cin >> n;
 //vector<int> v(n);
 //for (int i = 0;i < n; i++) 
 //    cin >> v[i];
@@ -55,7 +56,9 @@ int main()
 // auto mn = min_element(v.begin(), v.end());
 // auto mx = max_element(v.begin(), v.end());
 // cout << *mn << nl;
-// int maxElementPosition = mx - v.begin();
+    
+// int maxIndex = mx - v.begin();
+// int mnIndex = mn - v.begin();
 
 // auto lastElement = --v.end();
 // cout << *lastElement << nl;
@@ -67,6 +70,9 @@ int main()
 // cout << v.back() <<nl;
 
    
+  
+
+
     return 0;
 }
 
